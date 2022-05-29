@@ -1,0 +1,80 @@
+.emptyDiv {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  float: left;
+  margin-top: 80px;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.circleDiv {
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px;
+  border: 1px solid green;
+}
+.RedColor {
+  background-color: rgb(241, 186, 186);
+  border: 2px solid rgb(239, 47, 47);
+}
+.GreenColor {
+  background-color: rgb(100, 224, 100);
+  border: 2px solid green;
+}
+.YellowColor {
+  background-color: rgb(237, 237, 115);
+  border: 2px solid yellow;
+}
+.BlueColor {
+  background-color: rgb(133, 133, 246);
+  border: 1px solid blue;
+}
+.BlackColor {
+  background-color: rgb(82, 68, 68);
+  border: 2px solid black;
+}
+.inputSelect {
+  width: 400px;
+  height: 100px;
+  float: right;
+  margin-right: 250px;
+  margin-top: 250px;
+}
+.inputBox{
+    height: 45px;
+    font-size: 20px;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ShootBtn {
+  height: 50px;
+  width: 150px;
+  border: none;
+  background: transparent;
+  background-color: #ff9100;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.ShootBtn:hover {
+  color: Black;
+  border: none;
+  background: transparent;
+  background-color: #f0d4b0;
+}
+
+
